@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create your Google Account</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+    <style>
+        body {
+            padding-top: 2%;
+            padding-left: 22%;
+            padding-right: 22%;
+            padding-bottom: 20%;
+        }
+        div {
+            padding: 40px;
+            font-family: 'Roboto', sans-serif;
+            border: 1px solid rgb(204, 204, 204); 
+            border-radius: 12px;   
+        }
+        .i1{
+            width: 12%;
+        }
+        .i2{
+          width: 40%;
+          height: auto;
+          float: right;
+        }
+        .h{
+            margin-top: 9px;
+            margin-bottom: 0px;
+            font-weight: 500 ;
+        }
+        .p{
+            margin: 0px;
+        }
+        #details{
+          height: 35px;
+          width: 180px;
+          border-radius: 5px;
+          border: 1px solid rgb(190, 190, 190);
+          margin-right: 6px;
+        }
+        #details1{
+          height: 35px;
+          width: 375px;
+          border-radius: 5px;
+          border: 1px solid rgb(190, 190, 190);
+          margin-top: 1%;
+        }
+        input[type=text]:focus{
+          outline: 2px solid blue;
+        }
+        input[type=email]:focus{
+          outline: 2px solid blue;
+        }
+        input[type=password]:focus{
+          outline: 2px solid blue;
+        }
+        .p1{
+          font-size: smaller;
+          opacity: 0.78;
+          margin: 0%;
+          margin-left: 1%;
+        }
+        .p2 {
+          font-size: smaller;
+          opacity: 0.78;
+          margin: 0%;
+          margin-left: 1%;
+          width: 350px;
+        }
+        label{
+          font-size: 14px;
+          margin-left: 7px;
+        }
+        .p3{
+          margin-right: 189px;
+        }
+        button {
+          background-color: #0586b1;
+          border: none;
+          color: white;
+          padding: 10px 25px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 4px 2px;
+          cursor: pointer;
+          border-radius: 5px;
+        }
+        .p4{
+          float: right;
+          padding-right: 0px;
+          font-weight: lighter;
+          width: 200px;
+          text-align: center;
+        }
+
+    </style>
+  </head>
+  <body>
+    <div >
+      <img class="i1" src="image1.jpg" alt=""/>
+      <br>
+      <h2 class="h">Create your Google Account</h2>
+      <br> 
+      <p class="p">to continue to Gmail</p>
+      <br>
+      <img class="i2" src="image2.jpg" alt="">
+      
+      <br>
+      <input type="text" placeholder="First name" id="details" required>
+      <input type="text" placeholder="Last name" id="details" required>
+      <br> <br>
+
+      <input type="email" placeholder="Username" id="details1" required>
+      <br>
+      <p class="p1">You can use letters, numbers & periods</p>
+      
+      <br>
+      <input type="password" placeholder="Password" id="details" required>
+      <input type="password" placeholder="Confirm" id="details" required>
+      <br> 
+      <p class="p2">Use 8 or more characters with a mix of letters,numbers & symbols</p>
+      <br>
+      <br>
+      
+      <input type="checkbox" id="box" >
+      <label for="box">Show password</label>
+      <br> 
+      
+      <br>
+      <a class="p3" href="https://www.google.com"><b>Sign in instead</b></a>
+      <button>Next</button>
+
+    </div>
+  </body>
+</html>
